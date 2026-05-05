@@ -1,7 +1,7 @@
 {
   "name": "LeetCode",
   "version": "1.0.0",
-  "description": "LeetCode solutions in JavaScript",
+  "description": "LeetCode solutions in TypeScript",
   "scripts": {
     "build": "tsc",
     "test": "jest",

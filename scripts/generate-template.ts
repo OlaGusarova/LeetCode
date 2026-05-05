@@ -44,7 +44,7 @@ export function solutionOptimized(params: any): any {
 `;
 
 // solution.test.ts
-const testCode = `import { solution } from './solution';
+const testCode = `const solution = require('./solution');
 
 describe('${problemId}. ${problemName}', () => {
     test('Example 1', () => {
