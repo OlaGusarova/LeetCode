@@ -1,4 +1,9 @@
-const mergeAlternately = (word1, word2) => {
+/**
+ * @description Решение задачи 1768. merge-strings-alternately
+ * @link 🟢 EASY
+ */
+
+export function mergeAlternately(word1: string, word2: string): string {
     let result = []
     const word1Arr = word1.split('')
     const word2Arr = word2.split('')
@@ -14,5 +19,3 @@ const mergeAlternately = (word1, word2) => {
     }
     return result.join('')
 };
-
-module.exports = mergeAlternately;

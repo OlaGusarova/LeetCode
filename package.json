@@ -3,17 +3,29 @@
   "version": "1.0.0",
   "description": "LeetCode solutions in JavaScript",
   "scripts": {
+    "build": "tsc",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "new": "node scripts/generate-template.js",
-    "stats": "node scripts/stats.js"
+    "new": "ts-node --transpile-only scripts/generate-template.ts",
+    "stats": "ts-node scripts/stats.ts",
+    "type-check": "tsc --noEmit"
   },
   "devDependencies": {
-    "jest": "29.0.0"
+    "@types/jest": "30.0.0",
+    "@types/node": "25.6.0",
+    "@typescript-eslint/eslint-plugin": "8.59.2",
+    "@typescript-eslint/parser": "8.59.2",
+    "eslint": "10.3.0",
+    "jest": "29.0.0",
+    "ts-jest": "29.4.9",
+    "ts-node": "10.9.0",
+    "typescript": "6.0.3"
   },
   "jest": {
     "testEnvironment": "node",
-    "testMatch": ["**/solutions/**/*.test.js"]
+    "testMatch": [
+      "**/solutions/**/*.test.js"
+    ]
   }
 }
