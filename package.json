@@ -1,0 +1,19 @@
+{
+  "name": "LeetCode",
+  "version": "1.0.0",
+  "description": "LeetCode solutions in JavaScript",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "new": "node scripts/generate-template.js",
+    "stats": "node scripts/stats.js"
+  },
+  "devDependencies": {
+    "jest": "29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/solutions/**/*.test.js"]
+  }
+}
