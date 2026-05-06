@@ -51,4 +51,4 @@ console.log(`✅ Всего решено: ${stats.total} задач`);
 console.log(`🟢 Легкие: ${stats.byDifficulty.easy}`);
 console.log(`🟡 Средние: ${stats.byDifficulty.medium}`);
 console.log(`🔴 Сложные: ${stats.byDifficulty.hard}`);
-console.log(`\n📈 Прогресс: ${((stats.total / 3000) * 100).toFixed(2)}% от всех задач LeetCode\n`);
+console.log(`\n📈 Прогресс: ${((stats.total / 3920) * 100).toFixed(2)}% от всех задач LeetCode\n`);
