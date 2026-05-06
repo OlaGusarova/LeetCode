@@ -1,6 +1,7 @@
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
+  roots: ['<rootDir>/solutions'],
   testMatch: ['**/solutions/**/*.test.ts'],
   collectCoverageFrom: [
     'solutions/**/*.ts',
@@ -12,7 +13,11 @@ module.exports = {
   moduleFileExtensions: ['ts', 'js', 'json'],
   transform: {
     '^.+\\.ts$': ['ts-jest', {
-      tsconfig: 'tsconfig.json'
+      tsconfig: {
+        allowJs: true,
+        esModuleInterop: true
+      }
     }]
-  }
+  },
+  moduleDirectories: ['node_modules', '<rootDir>']
 };

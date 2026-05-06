@@ -1,4 +1,4 @@
-const mergeAlternately = require('./solution');
+import { mergeAlternately } from './solution';
 
 describe('1768 mergeAlternately', () => {
   test('Example 1', () => {

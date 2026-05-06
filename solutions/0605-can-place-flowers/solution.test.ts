@@ -1,4 +1,4 @@
-const canPlaceFlowers = require('./solution');
+import { canPlaceFlowers } from './solution';
 
 describe('605. can-place-flowers', () => {
     test('Example 1', () => {

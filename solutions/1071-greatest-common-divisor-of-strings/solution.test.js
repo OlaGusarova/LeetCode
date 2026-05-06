@@ -1,4 +1,4 @@
-const gcdOfStrings = require('./solution');
+import { gcdOfStrings } from './solution';
 
 describe('1071 Greatest Common Divisor', () => {
   test('Example 1', () => {

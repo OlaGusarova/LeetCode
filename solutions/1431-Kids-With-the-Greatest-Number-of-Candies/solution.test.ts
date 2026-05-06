@@ -1,4 +1,4 @@
-const kidsWithCandies = require('./solution');
+import { kidsWithCandies } from './solution';
 
 describe('1431. Kids With Candies', () => {
   test('Example 1', () => {
