@@ -17,8 +17,10 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    // ВАЖНО: Добавьте типы Node.js
-    "types": ["node", "jest"]
+    "moduleResolution": "node",
+    "allowJs": true,
+    "types": ["node", "jest"],
+    "ignoreDeprecations": "6.0"
   },
   "include": [
     "solutions/**/*",
