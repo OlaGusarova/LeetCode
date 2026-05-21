@@ -1,4 +1,3 @@
-import { describe, test, expect } from '@jest/globals'
 import { solution } from './solution';
 
 describe('151. reverse-words-in-a-string', () => {
