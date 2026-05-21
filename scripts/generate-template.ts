@@ -44,7 +44,8 @@ export function solutionOptimized(params: any): any {
 `;
 
 // solution.test.ts
-const testCode = `import { solution } from './solution';
+const testCode = `import { describe, test, expect } from '@jest/globals'
+import { solution } from './solution'
 
 describe('${problemId}. ${problemName}', () => {
     test('Example 1', () => {

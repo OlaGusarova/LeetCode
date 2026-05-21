@@ -1,3 +1,4 @@
+import { describe, test, expect } from '@jest/globals'
 import { kidsWithCandies } from './solution';
 
 describe('1431. Kids With Candies', () => {

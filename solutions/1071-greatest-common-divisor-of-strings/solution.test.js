@@ -1,3 +1,4 @@
+import { describe, test, expect } from '@jest/globals'
 import { gcdOfStrings } from './solution';
 
 describe('1071 Greatest Common Divisor', () => {

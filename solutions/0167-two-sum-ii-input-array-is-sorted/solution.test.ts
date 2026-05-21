@@ -1,4 +1,5 @@
-import { twoSum } from './solution';
+import { describe, test, expect } from '@jest/globals'
+import { twoSum } from './solution'
 
 describe('167. two-sum-ii-input-array-is-sorted', () => {
     test('Example 1', () => {
