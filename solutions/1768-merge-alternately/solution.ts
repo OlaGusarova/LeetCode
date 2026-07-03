@@ -4,7 +4,7 @@
  */
 
 export function mergeAlternately(word1: string, word2: string): string {
-    let result = []
+    const result = []
     const word1Arr = word1.split('')
     const word2Arr = word2.split('')
     while(word1Arr.length > 0 || word2Arr.length > 0) {

@@ -1,4 +1,3 @@
-import { describe, test, expect } from '@jest/globals'
 import { solutionTwo } from './solution';
 
 describe('345. reverse-vowels-of-a-string', () => {
